@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PoleSight</title>
+<meta name="description" content="PoleSight — 차량 화면에서 블랙박스 영상을 보고 내 Google 드라이브에 올리는 앱">
+<style>
+  :root { --bg:#ffffff; --text:#1c1d21; --dim:#5d6270; --line:#e3e5ea; --accent:#c9861a; --card:#f6f7f9; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111216; --text:#eceef2; --dim:#a3a8b4; --line:#2a2d35; --accent:#f0a83a; --card:#1a1c22; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.7 system-ui,-apple-system,"Segoe UI","Apple SD Gothic Neo","Noto Sans KR",sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:2.2rem; margin:0 0 4px; letter-spacing:-0.02em; }
+  h2 { font-size:1.15rem; margin:36px 0 8px; }
+  .lead { color:var(--dim); font-size:1.1rem; margin:0 0 28px; }
+  ul { padding-left:1.2em; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 20px; }
+  a { color:var(--accent); }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); color:var(--dim); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>PoleSight</h1>
+  <p class="lead">차량 화면(Android Automotive)에서 블랙박스 영상을 보고, 원하는 영상을 내 Google 드라이브에 올리는 앱입니다.</p>
+
+  <h2>기능</h2>
+  <ul>
+    <li>차량을 블랙박스 Wi-Fi에 연결하면 블랙박스를 자동으로 찾아 SD 카드의 녹화 목록을 보여 줍니다.</li>
+    <li>날짜·시간대·종류(상시, 이벤트, 주차 등)별로 정리하고, 눌러서 재생하며 전방/후방을 바꿔 볼 수 있습니다.</li>
+    <li>영상을 길게 누르면 사용자 본인의 Google 드라이브 <code>PoleSight</code> 폴더에 올립니다.</li>
+  </ul>
+
+  <h2>Google 계정 사용</h2>
+  <div class="card">
+    PoleSight는 업로드를 위해서만 Google 계정을 씁니다. 요청 권한은 <code>drive.file</code>(PoleSight가 만든 폴더·파일에만 접근)과
+    연결한 계정을 표시하기 위한 이메일 주소뿐이며, 드라이브의 다른 파일은 읽거나 바꿀 수 없습니다.
+    자세한 내용은 <a href="privacy.html">개인정보처리방침</a>을 참고하세요.
+  </div>
+
+  <h2>English</h2>
+  <p>PoleSight is an Android Automotive app for viewing dashcam recordings over the dashcam's local Wi-Fi and uploading
+    selected recordings to the user's own Google Drive. It uses only the <code>drive.file</code> scope and the account email.
+    See the <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <footer>
+    PoleSight는 개인이 만든 독립 앱이며 Polestar, 파인디지털(FineVu), 넥시안(NEXIAN)과 관련이 없습니다.
+    · <a href="privacy.html">개인정보처리방침 / Privacy Policy</a>
+    · 문의: <a href="mailto:geniuth@gmail.com">geniuth@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>

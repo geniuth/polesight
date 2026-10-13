@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PoleSight 개인정보처리방침</title>
+<meta name="description" content="PoleSight 개인정보처리방침 / Privacy Policy">
+<style>
+  :root { --bg:#ffffff; --text:#1c1d21; --dim:#5d6270; --line:#e3e5ea; --accent:#c9861a; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111216; --text:#eceef2; --dim:#a3a8b4; --line:#2a2d35; --accent:#f0a83a; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.7 system-ui,-apple-system,"Segoe UI","Apple SD Gothic Neo","Noto Sans KR",sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:1.9rem; margin:0 0 4px; letter-spacing:-0.02em; }
+  h2 { font-size:1.1rem; margin:32px 0 6px; }
+  .dim { color:var(--dim); }
+  ul { padding-left:1.2em; }
+  a { color:var(--accent); }
+  hr { border:0; border-top:1px solid var(--line); margin:48px 0; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="./">← PoleSight</a></p>
+  <h1>개인정보처리방침</h1>
+  <p class="dim">시행일: 2026년 10월 13일</p>
+
+  <p>PoleSight(이하 "앱")는 차량의 Android Automotive 화면에서 블랙박스 영상을 보고, 사용자가 고른 영상을 사용자 본인의 Google 드라이브에 올리는 앱입니다.
+    앱 개발자는 별도의 서버를 운영하지 않으며, 사용자의 정보를 수집·보관·판매하지 않습니다.</p>
+
+  <h2>1. 블랙박스 영상</h2>
+  <p>앱은 차량이 연결한 블랙박스 Wi-Fi(로컬 네트워크)로 블랙박스와 직접 통신해 녹화 목록, 썸네일, 영상을 불러옵니다.
+    이 데이터는 블랙박스와 차량 사이에서만 오가며 개발자에게 전송되지 않습니다.
+    업로드할 때 영상은 차량 안 앱의 임시 저장소를 거쳐 Google 드라이브로 올라가고, 업로드가 끝나면 임시 파일은 삭제됩니다.</p>
+
+  <h2>2. Google 계정과 Google 드라이브</h2>
+  <p>업로드 기능을 쓰려면 사용자가 Google 계정을 연결합니다. 앱이 요청하는 권한은 다음뿐입니다.</p>
+  <ul>
+    <li><b>openid, email</b> — 어떤 계정이 연결되었는지 앱 화면에 표시하기 위해 이메일 주소를 읽습니다.</li>
+    <li><b>drive.file</b> — 내 드라이브에 <code>PoleSight</code> 폴더와 날짜별 하위 폴더를 만들고, 사용자가 고른 영상을 그 안에 올립니다.
+      이 권한으로는 앱이 만든 폴더·파일에만 접근할 수 있으며, 드라이브의 다른 파일은 읽거나 바꾸거나 지울 수 없습니다.</li>
+  </ul>
+  <p>Google 로그인 후 받은 인증 토큰은 차량 안 앱 전용 저장소에만 보관되며 개발자나 제3자에게 전송되지 않습니다.
+    Google 계정 정보와 드라이브 데이터는 업로드 기능에만 쓰이고, 광고·분석·판매·AI 학습 등 다른 목적에 쓰거나 다른 사람에게 넘기지 않습니다.</p>
+  <p>PoleSight가 Google API로부터 받은 정보의 사용 및 다른 앱으로의 전송은
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>(제한적 사용 요구사항 포함)을 따릅니다.</p>
+
+  <h2>3. 수집하지 않는 정보</h2>
+  <p>앱은 위치, 연락처, 기기 식별자, 사용 기록 등을 수집하지 않으며, 광고나 분석 도구를 포함하지 않습니다.</p>
+
+  <h2>4. 연결 해제와 삭제</h2>
+  <ul>
+    <li>앱 설정 › Google 드라이브 › <b>연결 해제</b>를 누르면 차량에 저장된 토큰을 지우고 Google에 권한 취소를 요청합니다.</li>
+    <li><a href="https://myaccount.google.com/permissions">Google 계정 › 타사 앱 및 서비스</a>에서도 언제든 PoleSight의 권한을 취소할 수 있습니다.</li>
+    <li>이미 올린 영상은 사용자의 Google 드라이브에 있으므로 사용자가 직접 관리·삭제할 수 있습니다.</li>
+    <li>앱을 삭제하면 차량에 남은 앱 데이터(설정, 토큰)도 함께 삭제됩니다.</li>
+  </ul>
+
+  <h2>5. 변경과 문의</h2>
+  <p>이 방침이 바뀌면 이 페이지에 게시합니다. 문의: <a href="mailto:geniuth@gmail.com">geniuth@gmail.com</a></p>
+
+  <hr>
+
+  <h1>Privacy Policy</h1>
+  <p class="dim">Effective October 13, 2026</p>
+  <p>PoleSight ("the app") lets you view dashcam recordings on your car's Android Automotive display and upload recordings you choose to your own Google Drive.
+    The developer runs no servers and does not collect, store, or sell your data.</p>
+  <h2>Dashcam recordings</h2>
+  <p>The app talks directly to the dashcam over the dashcam's local Wi-Fi. Recordings travel only between the dashcam and the car;
+    during an upload a temporary copy is kept in the app's private storage and deleted when the upload finishes.</p>
+  <h2>Google user data</h2>
+  <p>The app requests only <b>openid</b> and <b>email</b> (to show which account is linked) and <b>drive.file</b>
+    (to create a <code>PoleSight</code> folder in your Drive and upload the recordings you select; the app cannot access any other Drive files).
+    The OAuth token is stored only in the app's private storage on the car and is never sent to the developer or third parties.
+    Google user data is used solely to provide the upload feature and is not used for advertising, analytics, sale, or AI training, nor shared with anyone.</p>
+  <p>PoleSight's use and transfer to any other app of information received from Google APIs will adhere to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+  <h2>Data the app does not collect</h2>
+  <p>No location, contacts, device identifiers, or usage analytics. The app contains no ads or analytics SDKs.</p>
+  <h2>Revoking access and deletion</h2>
+  <p>Use <b>Settings › Google Drive › Unlink</b> in the app (removes the token and asks Google to revoke it), or revoke access at
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Uploaded files remain in your Drive under your control.
+    Uninstalling the app deletes its local data.</p>
+  <h2>Contact</h2>
+  <p><a href="mailto:geniuth@gmail.com">geniuth@gmail.com</a></p>
+</main>
+</body>
+</html>
