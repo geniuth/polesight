@@ -1,8 +1,8 @@
 {
-  "versionCode": 18,
-  "versionName": "1.0.15",
-  "url": "https://github.com/geniuth/polesight/releases/download/v1.0.15/PoleSight-1.0.15.apk",
+  "versionCode": 19,
+  "versionName": "1.0.16",
+  "url": "https://github.com/geniuth/polesight/releases/download/v1.0.16/PoleSight-1.0.16.apk",
   "size": 4263358,
-  "sha256": "6783d561b7f5928c40db10a2b55e72352303b85a6c834d976130e41988a3214e",
-  "notes": "R5 재생 수정(설명서에 빠진 설정값을 채워 바로 재생, 안 되면 내려받아 재생), R5 썸네일 요청 보완, 넥시안 재생 보완, 로그 보기, 앱 안 업데이트."
+  "sha256": "300b5f2dd79fe3a810e8c52b6d9dd5d1f1241ceb29c0429992779622d27cae3d",
+  "notes": "R5 후방 재생 수정(블랙박스가 재생 중 전환을 거절하면 후방으로 다시 시작), R5 재생 보완."
 }
