@@ -1,8 +1,8 @@
 {
-  "versionCode": 19,
-  "versionName": "1.0.16",
-  "url": "https://github.com/geniuth/polesight/releases/download/v1.0.16/PoleSight-1.0.16.apk",
+  "versionCode": 20,
+  "versionName": "1.0.17",
+  "url": "https://github.com/geniuth/polesight/releases/download/v1.0.17/PoleSight-1.0.17.apk",
   "size": 4263358,
-  "sha256": "300b5f2dd79fe3a810e8c52b6d9dd5d1f1241ceb29c0429992779622d27cae3d",
-  "notes": "R5 후방 재생 수정(블랙박스가 재생 중 전환을 거절하면 후방으로 다시 시작), R5 재생 보완."
+  "sha256": "66f102f4c1aecafb2b3f62a08d78a534bdbefdd8d8edde85ec673f949e5fe74b",
+  "notes": "R5 후방 재생 수정(원본 앱과 같은 전/후방 번호 사용). 파인뷰 X7700 등 재생 오류(startrecordvod 500) 수정: 원본 앱 방식으로 다시 요청, 그래도 안 되면 내려받아 재생."
 }
