@@ -1,8 +1,8 @@
 {
-  "versionCode": 20,
-  "versionName": "1.0.17",
-  "url": "https://github.com/geniuth/polesight/releases/download/v1.0.17/PoleSight-1.0.17.apk",
-  "size": 4263358,
-  "sha256": "66f102f4c1aecafb2b3f62a08d78a534bdbefdd8d8edde85ec673f949e5fe74b",
-  "notes": "R5 후방 재생 수정(원본 앱과 같은 전/후방 번호 사용). 파인뷰 X7700 등 재생 오류(startrecordvod 500) 수정: 원본 앱 방식으로 다시 요청, 그래도 안 되면 내려받아 재생."
+  "versionCode": 21,
+  "versionName": "1.0.18",
+  "url": "https://github.com/geniuth/polesight/releases/download/v1.0.18/PoleSight-1.0.18.apk",
+  "size": 4263362,
+  "sha256": "2e3296d8264da6e072dcd36586a11190eca706d187f66c80be185d607695da8a",
+  "notes": "파인뷰 LXQ_EX 등 썸네일이 안 뜨던 문제 수정(1.0.9와 같은 요청부터 시도하고, 통한 방식을 기억)."
 }
